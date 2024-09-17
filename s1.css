@@ -1,0 +1,1002 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+html , body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.container .page{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -50px;
+    background: url(images/wp6183292-android-solo-leveling-wallpapers.png) no-repeat;
+    background-size: cover;
+}
+
+.page header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    backdrop-filter: blur(5px);
+}
+
+.page header nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page header nav img{
+    width: 80px;
+    height: 50px;
+}
+
+.page header nav h1{
+    color: aqua;
+}
+
+.page header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.page header nav ul li{
+    padding: 50px;
+}
+
+.page header nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.page header nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.page h2{
+    width: 100vh;
+    height: 20px;
+    color: aliceblue;
+    font-size: xxx-large;
+    margin-left: 400px;
+}
+.page .box{
+    width: 90%;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 75px;
+    position: relative;
+    box-shadow: 20px 20px 35px rgba(230, 224, 224, 0.6);
+}
+
+.page .box img{
+    width: 100%;
+    height: 450px;
+}
+
+.page .box h1{
+    width: 10%;
+    color: wheat;
+    position: absolute;
+    margin-top: -220px;
+}
+
+button{
+    font-size: 1.5rem;
+    margin-left: 500px;
+}
+
+.container .page2{
+    height: 100vh;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    background: url(images/wp13116031-shangri-la-frontier-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page2 h1{
+    width: 100%;
+    height: 100px;
+    color: red;
+    font-size: xxx-large;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.page2 .box{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius: 20px 20px;
+}
+
+.page2 .box  .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/imMkKSD-one-piece-high-definition-wallpaper.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page2 .box .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page2 .box .lowerbox h1{
+    margin-top: 10px;
+     font-size: large;
+     margin-left: 10px;
+     display: flex;
+     color: whitesmoke;
+}
+
+.page2 .box .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: -30px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page2 .box2{
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.page2 .box2  .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp4437189-fire-force-wallpapers.png) no-repeat;
+    background-size: cover;
+}
+
+.page2 .box2 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page2 .box2  .lowerbox h1{
+    margin-top: 10px;
+    font-size: large;
+    margin-left: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page2 .box2  .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: -30px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page2 .box3{
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.page2 .box3  .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp13116031-shangri-la-frontier-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page2 .box3 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page2 .box3 .lowerbox h1{
+    margin-top: 10px;
+    font-size: large;
+    margin-left: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page2 .box3  .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: -30px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.container .page3{
+    width: 100%;
+    height: 100vh;
+    background: url(images/wp7868494-spy-x-family-wallpapers.jpg)  no-repeat;
+    background-size: cover;
+}
+
+.page3 h1{
+    color: whitesmoke;
+    font-size: xxx-large;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.page3 .box{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 20px 20px ;
+}
+
+.page3 .box  .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp11197892-anime-girl-alone-ps4-wallpapers.png) no-repeat;
+    background-size: cover;
+}
+
+.page3 .box .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page3 .box .lowerbox h1{
+     font-size: large;
+     margin-left: 10px;
+     margin-top: 20px;
+     display: flex;
+     color: whitesmoke;
+}
+
+.page3 .box  .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page3 .box2{
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.page3 .box2  .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp5051542-yami-sukehiro-iphone-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page3 .box2 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page3 .box2 .lowerbox h1{
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page3 .box2  .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page3 .box3{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: -400px;
+    margin-left: 400px;
+    border-radius: 20px 20px;
+}
+
+.page3 .box3 .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp5440742-demon-lord-anime-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page3 .box3 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page3 .box3 .lowerbox h1{
+    font-size: large;
+    margin-left: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page3 .box3 .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.container .page4{
+    width: 100%;
+    height: 100vh;
+    margin-top: 530px;
+    background: url(images/wp6162486-god-games-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page4 .box{
+    width: 90%;
+    height: 510px;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.page4 h1{
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.page4 .box h1{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    color: wheat;
+    font-size: xx-large;
+    margin-top: 450px;
+    margin-left: 0px;
+}
+
+.page4 .box img{
+    width: 100%;
+    height: 560px;
+    margin-top: -30px;
+}
+
+.container .page5{
+    width: 100%;
+    height: 100vh;
+    margin-top: -50px;
+    background: url(images/wp6808171-heroes-rising-wallpapers.png)  no-repeat;
+    background-size: cover;
+    
+}
+
+.page5 h1{
+    color: black;
+    font-size: xxx-large;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.page5 .box{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 20px 20px ;
+}
+
+.page5 .box  .upperbox{
+    width: 100%;
+    height: 60%;
+}
+
+.page5 .box  .upperbox img{
+     width: 100%;
+     height: 100%;
+}
+
+.page5 .box .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page5 .box .lowerbox h1{
+     font-size: large;
+     margin-left: 10px;
+     display: flex;
+     color: whitesmoke;
+}
+
+.page5 .box .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 40px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page5 .box2{
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.page5 .box2  .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp7868494-spy-x-family-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page5 .box2 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page5 .box2 .lowerbox h1{
+    font-size: large;
+    margin-left: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page5 .box2 .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 40px;
+    display: flex;
+    color: whitesmoke;
+}
+.page5 .box3{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: -400px;
+    margin-left: 400px;
+    border-radius: 20px 20px;
+}
+
+.page5 .box3 .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp4366895-nezuko-wallpapers.png) no-repeat;
+    background-size: cover;
+}
+
+.page5 .box3 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page5 .box3 .lowerbox h1{
+    font-size: large;
+    margin-left: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page5 .box3 .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 40px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.container .page6{
+    width: 100%;
+    height: 100vh;
+    margin-top: 500px;
+    background: url(images/wp7969307-deku-vs-bakugo-wallpapers.png)  no-repeat;
+    background-size: cover;
+}
+
+.page6 h1{
+    color: black;
+    font-size: xxx-large;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.page6 .box{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 20px 20px ;
+}
+
+.page6 .box  .upperbox{
+    width: 100%;
+    height: 60%;
+}
+
+.page6 .box  .upperbox img{
+    width: 100%; 
+    height: 100%;
+}
+
+.page6 .box .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page6 .box .lowerbox h1{
+     font-size: large;
+     margin-left: 10px;
+     display: flex;
+     color: whitesmoke;
+}
+
+.page6 .box .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 62px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page6 .box2{
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.page6 .box2  .upperbox{
+    width: 100%;
+    height: 60%;
+    background: url(images/wp9680150-kaiju-no8-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+
+.page6 .box2 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page6 .box2 .lowerbox h1{
+    font-size: large;
+    margin-left: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page6 .box2 .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 42px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.page6 .box3{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: -400px;
+    border-radius: 20px 20px;
+}
+
+.page6 .box3  .upperbox{
+    width: 100%;
+    height: 60%;
+}
+
+.page6 .box3  .upperbox img{
+    width: 100%; 
+    height: 100%;
+}
+
+.page6 .box3 .lowerbox{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius:  0px 0px 20px 20px;
+    background-color: black;
+}
+
+.page6 .box3  .lowerbox h1{
+    width: 100%;
+    height: 60%;
+    color: whitesmoke;
+}
+
+.page6 .box3 .lowerbox h2{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.container .page7{
+    width: 100%;
+    height: 100vh;
+    margin-top: 530px;
+    background-color: black;
+}
+
+.page7 .box{
+    width: 80%;
+    height: 250px;
+    margin-left: 100px;
+}
+
+.page7 .box h1{
+    width: 100%;
+    height: 50px;
+    color: whitesmoke;
+    font-size: xxx-large;
+}
+
+.page7 .box pre{
+    color: aliceblue;
+    margin-top: -40px;
+    margin-left: 450px;
+    font-size: xx-large;
+    display: block;
+}
+
+.page7 .box1{
+    width: 80%;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 100px
+}
+
+.page7 .box1 h1{
+    width: 100%;
+    height: 200px;
+    color: whitesmoke;
+    font-size: xxx-large;
+}
+
+.page7 .box1 pre{
+    color: aliceblue;
+    margin-top: 80px;
+    margin-left: 450px;
+    font-size: xx-large;
+    display: block;
+}
+
+/*Media Quary for tab*/
+
+@media all and (max-width:1028px){
+
+    html,body{
+         width: 100%;
+        height: 100vh;
+        margin: 0px;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+
+    .container .page{
+        width: 100%;
+    }
+
+    .container .page{
+        width: 100%;
+        height: 700px;
+    }
+
+    .page header nav h1{
+        margin-left: -180px;
+    }
+
+    .page header nav img{
+        margin-left: -90px;
+    }
+
+    .page h2{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .page .box{
+        width: 90%;
+        height: 600px;
+        margin-left: 40px;
+    }
+    
+    .container .page2{
+        width: 100%;
+        height: 150vh;
+     }
+
+    .page2 .box{
+        float: none;
+        margin-left: 250px;
+    }
+
+    .page2 .box2{
+        float: none;
+        margin-left: 250px;
+    }
+
+    .page2 .box3{
+        float: none;
+        margin-left: 250px;
+
+    }
+
+     .container .page3{
+        width: 100%;
+        height: 150vh;
+     }
+
+    .page3 .box{
+        float: none;
+        margin-left: 250px;
+    }
+
+    .page3 .box2{
+        float: none;
+        margin-left: 250px;
+    }
+
+    .page3 .box3{
+        float: none;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    
+    .container .page4{
+        height: 680px;
+    }
+
+    .page4 h1{
+        margin-left: 200px;
+    }
+
+    .page4 .box{
+        margin-top: 50px;
+        height: 0px;
+        margin-left: 50px;
+    }
+
+    .container .page5{
+        height: 150vh;
+    }
+
+    .container .page6{
+        height: 150vh;
+    }
+
+    .page7 .box{
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .page7 .box h1{
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+    
+    .page7 .box1{
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+
+    .page7 .box1 h1{
+        margin-top: 300px;
+    }
+
+    .page7 .box1 pre{
+        margin-top: -200px;
+    }
+}
+
+/*Media Quary for mobile*/
+
+@media all and (max-width:500px){
+    
+     .page  header nav h1{
+        margin-left: -30px;
+     }
+
+     .page header nav img{
+        margin-left: -20px;
+     }
+
+    .page h2{
+        font-size: x-large;
+        margin-left: 50px;
+    }
+
+    .page .box{
+        height: 800px;
+        font-size: x-large;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .page .box h1{
+        font-size: x-large;
+    }
+    
+    .container .page2{
+         height: 230vh;
+    }
+
+    .page2 h1{
+        font-size: x-large;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+    .page2 .box{
+        font-size: x-large;
+        margin-left: 40px;
+    }
+
+    .page2 .box2{
+        font-size: x-large;
+        margin-left: 40px;
+    }
+
+    .page2 .box3{
+        font-size: x-large;
+        margin-left: 40px;
+    }
+
+    .container .page3{
+        height: 230vh;
+   }
+
+   .page3 h1{
+       font-size: x-large;
+       margin-top: 100px;
+       margin-left: 50px;
+   }
+
+   .page3 .box{
+       font-size: x-large;
+       margin-left: 40px;
+   }
+
+   .page3 .box2{
+       font-size: x-large;
+       margin-left: 40px;
+   }
+
+   .page3 .box3{
+       font-size: x-large;
+       margin-left: 0px;
+   }
+
+   .page4 .box{
+    margin-left: 18px;
+   }
+
+   .container .page5{
+    height:  250vh;
+    margin-top: -100px;
+   }
+
+   .page5 h1{
+    color: whitesmoke;
+   }
+
+   .container .page6{
+    height:  250vh;
+   }
+   
+   .page6 h1{
+    color: black;
+   }
+
+   .page7 .box h1{
+    font-size: x-large;
+    margin-top: 5px;
+    margin-left: -40px;
+   }
+
+   .page7 .box pre{
+    font-size: x-large;
+    margin-top: -50px;
+    margin-left: 120px;
+   }
+
+   .page7 .box1{
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 10px;
+   }
+   .page7 .box1 h1{
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 0px;
+   }
+
+   .page7 .box1 pre{
+    font-size: x-large;
+    margin-left: 150px;
+
+   }
+}
